@@ -1,6 +1,6 @@
 npm init -y
 npm i prisma typescript ts-node @types/node --save-dev
 npx tsc --init
-change rootDir and outDir
+change rootDir and outDir from tsconfig.json
 npx prisma init //to get prisma/schema.prisma
-npm prisma generate// to generate migration files and create tables or models writtein inside schema.prisma
+npx prisma generate// to generate migration files and create tables or models writtein inside schema.prisma
